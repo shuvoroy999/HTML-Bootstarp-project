@@ -1,0 +1,762 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.navbar{
+    padding: 20px  95px !important;
+    
+}
+.borderbuttom{
+    box-shadow: 0px 2px 2px rgba(160, 147, 147, 0.723);
+}
+.nav-item{
+    margin: 0px 10px;
+}
+.navitem{
+    
+    color: #44444A;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    transition: all .4s ease;
+    
+}
+.navitem:hover{
+    color: crimson;
+}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+.nav-link .dropdown-menu{
+    padding-top: 20px;
+}
+.dropdown-menu li a{
+    padding: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: none;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-primary{
+    
+    padding: 11px 25px;
+    border: transparent;
+    background-color: #fc5f6d;
+    font-size: 15px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-primary:hover{
+    background-color: #FF717D;
+}
+.navbar-toggler-icon i{
+    
+    color: #f56772;
+}
+/* navbar section end  */
+
+/* business planing section statr  */
+.tagline{
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #44444A;
+}
+.planing-title{
+    color: #171614;
+    font-size: 80px;
+    line-height: 84px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+.plan-dtl{
+    margin-top: 35px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #666666;
+    font-family: 'Roboto' , sans-serif;
+    line-height: 28px;
+}
+.get-btn{
+    background-color: #171614;
+    padding: 12px 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Roboto' , sans-serif;
+    border: transparent;
+    border-radius: 3px;
+}
+.get-btn:hover{
+    background-color: #FF717D;
+}
+.get-ln{
+    
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'Roboto' , sans-serif;
+}
+.get-ln:hover{
+    color: #FF717D;
+}
+/* business planing section end */
+
+/* about section start  */
+#lottie{
+    margin-top: 200px;
+    
+
+}
+.about-row{
+    background-color: #EBF4FF;
+}
+.tagline{
+    padding-top: 60px;
+}
+.hedding{
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #171614;
+    font-family: 'Roboto' , sans-serif;
+}
+.about-dtl{
+    line-height: 30px ;
+    font-size: 17px;
+    font-weight: 400;
+    color: #666666;
+    font-family: 'Roboto' , sans-serif;
+}
+.list-style{
+    line-height: 28px ;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    font-family: 'Roboto' , sans-serif;
+}
+.read-more-btn{
+    background-color: #171614;
+    padding: 12px 30px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Roboto' , sans-serif;
+    border: transparent;
+    border-radius: 3px;
+}
+.read-more-btn:hover{
+    background-color: #FF717D;
+}
+/* about section end  */
+
+/* what we do section start  */
+.what-row{
+    margin-top: 100px;
+}
+.tagline2{
+    line-height: 28px;
+    font-size: 17px;
+    color: #444444;
+    font-weight: 500;
+    font-family: 'Roboto' , sans-serif;
+}
+.hedding2{
+    line-height: 50px;
+    font-size: 52px;
+    font-weight: 600;
+    color: #171614;
+    font-family: 'Roboto' , sans-serif;
+}
+.what-we-do-left-para{
+    margin-top: 100px;
+    line-height: 25px;
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+    font-family: 'Roboto' , sans-serif;
+}
+.box-text{
+    margin-top: 10px;
+    color: #171614;
+    font-size: 22px;
+    font-weight:bold;
+    font-family:'Roboto' , sans-serif ;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.box-text:hover{
+    color: #FF717D;
+}
+.box-para{
+    margin-bottom: 50px;
+    color: #444444;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Roboto' , sans-serif ;
+}
+.we-do-item{
+    margin-left: -10px;
+}
+/* what we do section end */
+
+/* Our Clients Section Start  */
+.our-clients{
+    background-color: #171614;
+}
+.client-left{
+    padding-top: 40px;
+}
+.client-left-dtl{
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 700;
+} 
+.partner-logo{
+    padding-top: 100px;
+}
+.claint-logo img{
+    transition: transform .3s ease-in-out;
+}
+.claint-logo img:hover{
+    transform: translate3d(0px,-100px, 0px);
+}
+/* Our Clients Section end */
+
+/* recent-work-tagline start */
+.recent-wotk-top-hedding{
+   margin-top: 100px;
+}
+.recent-work-tagline{
+    font-size: 17px;
+    font-weight: 500;
+    color: #444;
+    font-family: 'Roboto' , sans-serif;
+}
+.recent-work-heading{
+    font-size: 46px;
+    font-weight: 700;
+    color: #171614;
+}
+.img-area, .project{
+    
+    overflow: hidden;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+.img-scale1:hover img{
+    transform: scale(1.05);
+}
+.img-scale2:hover img{
+    transform: scale(1.05);
+}
+.img-scale3:hover img{
+    transform: scale(1.05);
+}
+.img-scale4:hover img{
+    transform: scale(1.05);
+}
+.project-tag{
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Roboto' , sans-serif;
+    transition: all .3s ease;
+}
+.project-tag:hover{
+    color: #FF717D;
+}
+.project-tag-dtl{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto' , sans-serif;
+    text-decoration: none;
+    color: #666;
+    position: relative;
+}
+.project-tag-dtl:hover{
+    color: #000;
+}
+.project-tag-dtl::after{
+    content: '';
+    height: 2px;
+    width: 0%;
+    display: block;
+    background-color: #000;
+    position: absolute;
+    top: 110%;
+    left: 0%;
+    transition: 0.4s ease;
+}
+.project-tag-dtl:hover::after{
+    
+    width: 100% !important;
+}
+/* recent-work-tagline end */
+
+/* pricing plan section start  */
+.pricing-plan{
+    background-color: #ebf4ff;
+}
+.pricing-headding{
+    margin-top: 100px;
+}
+.pricing-plan-tagline{
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+    font-family: 'Roboto' , sans-serif;
+}
+.pricing-dtl{
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #171614;
+    font-family: 'Roboto' , sans-serif;
+}
+.list-group-item.active{
+    background-color: #f56772 ;
+    border-color: #f56772;
+}
+.list-group-item{
+    padding: 13px 20px;
+    font-family: 'Roboto' , sans-serif;
+}
+.left_tab_item{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.pricing-title{
+    font-size: 22px;
+    font-weight: 600;
+    color: #444;
+    font-family:'Poppins', sans-serif;
+}
+.pricing-amount{
+    font-size: 72px;
+    font-weight: 600;
+    color: #171614;
+    font-family: 'Roboto' , sans-serif;
+}
+.list-style-tick{
+    list-style-type:none;
+    margin-left: -30px;
+}
+.buy-now-btn{
+    padding: 15px 38px;
+    background-color:#171614 ;
+    font-weight: 500;
+    font-family: 'Roboto' , sans-serif;
+    border: transparent;
+}
+.list-style-tick{
+    font-size: 17px;
+    line-height:40px;
+    font-weight: 400;
+    color: #666;
+    font-family: 'Roboto' , sans-serif;
+}
+.buy-now-btn:hover{
+    background-color: #fc5f6d;
+}
+.tik{
+    color: #f56772;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.cross{
+    color: #666;
+    font-size: 12px;
+    margin-right: 10px;
+}
+/* pricing plan section end */
+
+/* testimonials section start  */
+.left-side{
+    padding:60px 100px !important;
+}
+.testimonial-headding{
+    color: #171614;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Roboto' , sans-serif;
+}
+.carosol-para{
+    color: #666;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Roboto' , sans-serif;
+
+}
+.carosol-img{
+    height: 75px;
+    margin-right: 15px;
+}
+.man-name{
+    color: #171614;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Roboto' , sans-serif;
+}
+.testmonial-right{
+    background-color: #ffece8;
+}
+.nam-designation{
+    color: #2f2e2b;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Roboto' , sans-serif;
+}
+.right-side{
+    padding:0px 100px !important;
+}
+.testmonial-tagline{
+    margin-top: 120px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+    font-family: 'Roboto' , sans-serif;
+}
+.testmonial-hedding{
+
+    color: #171614;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: 'Roboto' , sans-serif;
+}    
+.testmonial-para{
+    font-size: 18px;
+    font-weight: 400;
+    color: #171614;
+    font-family: 'Roboto' , sans-serif;
+}
+.testmonial-para:hover{
+    color: #666;
+}
+.navigation i{
+    color: #666;
+    padding: 13px 0px 0px 13px;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #444;
+}
+.navigation i:hover{
+    color: #fff;
+    background-color: #f56772;
+    border: transparent;
+}
+/* testimonials section end */
+
+/* subscribe secton start  */
+.subscribe{
+    background-color: #171614;
+}
+.sub-content{
+    margin-top: 100px;
+    margin-bottom: 100px !important;
+}
+.tagline-sub{
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Roboto' , sans-serif;
+}
+.sub-hedding{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Roboto' , sans-serif;
+}
+.sub_para{
+    font-size: 17px;
+    font-weight: 300;
+    color: #cdcdcd;
+    font-family: 'Roboto' , sans-serif;
+}
+.form-group{
+    height: 50px;
+}
+.subscribe-text-box{
+    border-right: none;
+    border-radius: 3px 0px 0px 3px ;
+}
+.subscribe-btn{
+    font-size: 16px;
+    font-family: 'Roboto' , sans-serif;
+    width: 200px;
+    border-radius: 0px 3px 3px 0px;
+    z-index: 9;
+    
+}
+.subscribe-right-side{
+    margin-top: 130px;
+    margin-left:-100px ;
+}
+/* subscribe secton end */
+
+/* footer section start  */
+.f-about{
+    margin-top: 100px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #171614;
+    font-family: 'Roboto' , sans-serif;
+}
+.footer-icon i{
+    color: #666;
+    background-color: #ffece8;
+    padding: 15px;
+    border-radius: 50%;
+    
+    transition:  0.5s ease;
+    
+}  
+.footer-icon i:hover{
+    color: #fff;
+    background-color: #f56772;
+}  
+.about-dtl{
+    color: #666;
+    font-weight: 400;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+}
+.contact-dtl{
+    line-height: 2em;
+    color: #666;
+    font-weight: 400;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+}
+.quick-list-dtl{
+    text-decoration: none;
+    line-height: 1.2em;
+    color: #666;
+    font-weight: 400;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    transition: all .3s ease;
+}
+.quick-list-dtl:hover{
+    color: #fc5f6d;
+}
+.ofc-hr-dtl{
+    line-height: 1.2em;
+    color: #666;
+    font-weight: 400;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+}
+.copyright{
+    color: #666;
+    font-weight: 400;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+}
+/* footer section end */
+
+/* go-to-top  */
+.scroll{
+    color: #fff;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    z-index: 10;
+    background-color: #fc5f6d;
+}
+/* go-to-top  */
+.side-text{
+    color: #171614;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+.side-text:hover{
+    color: #fc5f6d;
+}
+.side-text-left {
+    left: -80px;
+    border-bottom: none;
+    position: fixed;
+    bottom: 50%;
+    transform: rotate(-90deg);
+    z-index: 100;
+    display: block;
+}
+/* all media queary */
+@media (max-width:991px) {
+    .business-planing{
+        background:none;
+    }
+    .business-planing .tagline{
+        font-size:16px ;
+        margin-top: -80px;
+    }
+    .planing-title{
+        font-size:48px ;
+        line-height: 50px;
+    }
+    .plan-dtl{
+        font-size:16px ; 
+    }
+}
+/* busness plan end */
+
+/* we want to do  */
+@media (max-width:991px) {
+    .tagline2{
+        font-size: 16px;
+    }
+    .hedding2{
+        font-size: 48px;
+        
+    }
+}
+/* we want to do  */
+
+/* our claint start  */
+@media (max-width:991px) {
+    .client-left .tagline{
+        font-size:16px ;
+    }
+    .client-left-dtl{
+        font-size: 45px;
+    }
+    .partner-logo{
+        margin-top: -80px;
+    }
+   
+}
+/* our claint end  */
+
+/* PRICING PLAN seaction start */
+@media (max-width:991px) {
+    .pricing-plan-tagline{
+        font-size: 16px;
+    }
+    .pricing-dtl{
+        font-size: 48px;
+        width: 65%;
+    }
+    .left_tab_item{
+        margin-top: 30px;
+    }
+}
+/* PRICING PLAN seaction end */
+
+/* TESTIMONIALS section start  */
+@media (max-width:991px) {
+    .tagline .testmonial-tagline{
+        font-size: 16px;
+    }
+    .testimonial-headding .testmonial-hedding{
+        font-size: 48;
+    }
+    .right-side{
+        margin-top: -120px;
+    }
+}
+/* TESTIMONIALS section end */
+
+/* SUBSCRIBE section start  */
+@media (max-width:991px){  
+    .tagline-sub {
+       font-size: 16px;
+    }
+    .sub-hedding{
+        font-size: 48px;
+    }
+    .sub_para{
+        font-size: 16px;
+    }
+    .subscribe-form{
+        margin-bottom: -100px;
+    }
+    
+   } 
+/* SUBSCRIBE section end */
+
+/* copyright */
+@media (max-width:991px) {
+    .ftr-r{
+        float: right;
+    }
+}
+@media (max-width:575px) {
+    .copyright{
+        text-align:center ;
+        
+    }
+    .ftr-r{
+        float: none;
+    } 
+    .client-left-dtl{
+        font-size: 45px;
+        width: 95%;
+    }
+}
+/* copyright */
+@media (max-width:575px) {
+    #lottie img{
+        width: 55%;
+        margin-left: 20%;
+    }
+}
+@media (max-width:991px) {
+    #lottie img{
+        width: 55%;
+        margin-left: 20%;
+    }
+}
+@media (max-width:575px) {
+    .side-text-left{
+        display: none;
+    }
+}
+@media (max-width:991px) {
+    #lottie3 img{
+        display: none;
+    }
+}
+@media (max-width:991px) {
+    .subscribe-right-side img{
+        display: none;
+    }
+}
+@media (max-width:991px) {
+    .testmonial-right{
+        background-color: #fff;
+        margin-bottom: 100px;
+    }
+    #bg{
+        background: none !important;
+    }
+   
+    .side-text-left{
+        left: -90px;
+    }
+   
+}
+@media (max-width:1999px) {
+    .navbar{
+        padding:20px 15px !important;
+        position: static;
+    }
+
+}
+@media (min-width:1200px) {
+    .navbar{
+        padding: 20px  95px !important;
+        position: sticky;
+    }
+}
